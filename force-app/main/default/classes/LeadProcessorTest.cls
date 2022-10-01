@@ -1,8 +1,8 @@
 @isTest
-public class LeadProcessorTest {
+private class LeadProcessorTest {
    
     @isTest
-    public static void testBatchClass(){
+    static void testBatchClass(){
         List<Lead> leads  = new List<Lead>();
 
         for (Integer i = 0; i < 200; i++) {

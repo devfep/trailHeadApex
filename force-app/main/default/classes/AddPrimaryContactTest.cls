@@ -2,7 +2,7 @@
 private class AddPrimaryContactTest{
 
     @isTest
-    private static void testQueueableClass() {
+    static void testQueueableClass() {
 
         //Load test data
         List<Account> accounts = new List<Account>();
